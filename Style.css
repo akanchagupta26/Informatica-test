@@ -3,3 +3,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/** containers **/
+.container {
+    padding-left: 1rem; /** boxmodel MBPC **/
+    padding-right: 1rem;
+}
+
+.centered-container {
+    max-width: 600px;
+    margin: auto;
+}
